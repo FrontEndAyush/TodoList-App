@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div id="container">
+        <nav>
+            <h1 id="forHeading">Todo List</h1>
+        </nav>
+
+        <div id="stylingInput">
+            <input type="text" id="forinput" placeholder="Enter Your To-Do">
+            <button onclick="funcAdd()" id="deleteButton">Click To Add</button>
+        </div>
+
+        <ul id="unorderedList">
+
+        </ul>
+    </div>
+
+
+
+    <div id="editButtonId">
+        <input type="text" id="forEditable" placeholder="place your editable task">
+        <button id="saveBtn">Save</button>
+        <button id="cancelBtn" onclick="cancelEverything()">Cancel</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
